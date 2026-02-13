@@ -57,3 +57,57 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# 💬 Real-Time Chat Application
+
+A modern real-time chat application built using **Laravel**, **Laravel Reverb**, **PHP**, and **Blade**.
+
+---
+
+## 🚀 Features
+
+- ⚡ Real-time messaging with Laravel Reverb
+- 📎 File sharing (images, documents, etc.)
+- 🟢 User status creation and updates
+- 🔒 Secure backend with Laravel
+- 🎨 Dynamic UI using Blade templates
+- 🚧 File download system (currently in progress)
+
+---
+
+## 🛠 Tech Stack
+
+| Technology        | Purpose |
+|-------------------|----------|
+| Laravel           | Backend Framework |
+| Laravel Reverb    | Real-time Broadcasting |
+| PHP               | Server-side Logic |
+| Blade             | Frontend Templating |
+| MySQL             | Database |
+| Vite / Node       | Asset Bundling |
+
+---
+
+## 📸 Screenshots
+
+### 💬 Chat Interface
+![Chat UI](screenshots/chat.png)
+
+### 📎 File Sharing
+![File Upload](screenshots/file-upload.png)
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Sohamkantijana/chat-app.git
+cd chat-app
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+npm run dev
+php artisan serve
+
